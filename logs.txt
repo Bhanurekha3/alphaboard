@@ -1,0 +1,24 @@
+Backend Server Logs
+
+MongoDB Connected
+Server running on port 5000
+
+User Registration:
+- Validation successful
+- Password hashed using bcrypt
+- User stored in MongoDB
+
+User Login:
+- Credentials verified
+- JWT token generated
+- Token expiration set to 1 day
+
+Profile Route:
+- Protected using JWT middleware
+- User data fetched successfully
+
+Task Operations:
+- Task created successfully
+- Task updated successfully
+- Task deleted successfully
+- User-specific task filtering verified
